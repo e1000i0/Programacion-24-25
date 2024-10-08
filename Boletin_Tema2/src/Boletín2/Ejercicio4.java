@@ -13,11 +13,11 @@ public class Ejercicio4 {
             System.out.println("Introduce un número");
             num = sc.nextInt();
             if (num < aleatorio && num > 1 && num < 100) {
-                System.out.println("Ta quedao corto");
+                System.out.println("Tas quedao corto");
             } else if (num > aleatorio && num > 1 && num < 100) {
                 System.out.println("Tas colao");
-            } else if (num > aleatorio || num < 1 || num > 100) {
-            }
+            } else if (num < 1 || num > 100) {
+                System.out.println("Un número del 1 al 100 makina");}
         numVidas --;
         } while (numVidas > 0 && num != aleatorio);
         sc.close();
