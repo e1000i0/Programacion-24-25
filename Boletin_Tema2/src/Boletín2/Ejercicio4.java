@@ -17,11 +17,12 @@ public class Ejercicio4 {
             } else if (num > aleatorio && num > 1 && num < 100) {
                 System.out.println("Tas colao");
             } else if (num < 1 || num > 100) {
-                System.out.println("Un número del 1 al 100 makina");}
-        numVidas --;
+                System.out.println("Un número del 1 al 100 makina");
+            }
+            numVidas--;
         } while (numVidas > 0 && num != aleatorio);
         sc.close();
-        if (num == aleatorio){
+        if (num == aleatorio) {
             System.out.println("Has ganao makina");
         } else
             System.out.println("Haber estudiao");
